@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66" started-at="2022-09-20T13:23:46 IST" finished-at="2022-09-20T13:23:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66" started-at="2022-09-20T13:23:46 IST" finished-at="2022-09-20T13:23:46 IST">
+      <class name="projectscrpit.Testngpracticetest">
+        <test-method status="PASS" signature="scrpit2test()[pri:0, instance:projectscrpit.Testngpracticetest@32eebfca]" name="scrpit2test" duration-ms="10" started-at="2022-09-20T13:23:46 IST" finished-at="2022-09-20T13:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrpit2test -->
+        <test-method status="PASS" signature="scrpittest()[pri:0, instance:projectscrpit.Testngpracticetest@32eebfca]" name="scrpittest" duration-ms="2" started-at="2022-09-20T13:23:46 IST" finished-at="2022-09-20T13:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrpittest -->
+      </class> <!-- projectscrpit.Testngpracticetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
