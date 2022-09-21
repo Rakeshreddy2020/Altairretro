@@ -83,23 +83,29 @@ public class Baseclass
 	   web.alertpopup();
 	}
 	
-//	@AfterMethod
-//	public void methodTearDown() 
-//	{
-//		// logout from the application
-//		
-//		com.Profilelogout();
-//		
-//	//save the data into 
-//		ex.saveData(IConstantpath.excel_path);	
-//	}
-//	
-//	@AfterClass
-//	public void clastearDown()
-//	{
-//		web.closeBrowser(driver);
-//		ex.closeExcelBook();
-//	}
+	@AfterMethod
+	public void methodTearDown() 
+	{
+		// logout from the application
+		
+		com.Profilelogout();
+		
+	//save the data into 
+		ex.saveData(IConstantpath.excel_path);	
+	}
+	
+	@AfterClass
+	public void clastearDown()
+	{
+		web.closeBrowser(driver);
+		ex.closeExcelBook();
+	
+	{
+	
+		driver.quit();
+	}
+	   
+	}
 	 
 		
 	}

@@ -113,7 +113,8 @@ pro.addProduct(data.get("product code"), data.get("name"), data.get("description
 	   {
 			System.out.println("TC is Fail");
 	   }
-	   Commonpage profile = new Commonpage(driver);        
+	   Commonpage profile = new Commonpage(driver);  
+	   
 		//profile.Profilelogout();	   
 	   /*driver1.findElement(By.xpath("//img[@class='img-profile rounded-circle']")).click();
 	   driver1.findElement(By.xpath("//a[@class='dropdown-item']/following::a[@class='dropdown-item']")).click();

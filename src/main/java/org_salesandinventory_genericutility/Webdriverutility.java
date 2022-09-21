@@ -272,7 +272,10 @@ public void verifyWebPage(WebElement element,String expectedText,WebDriver drive
 		        String src = ts.getScreenshotAs(OutputType.BASE64);
 		        return  src;
 		 }
-     
+      public void closeBrowser()
+      {
+    	  driver.quit();
+      }
      
 }
 
