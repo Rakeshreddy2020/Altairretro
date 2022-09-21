@@ -87,8 +87,7 @@ pro.addProduct(data.get("product code"), data.get("name"), data.get("description
 		int c = Integer.parseInt(text);
 		System.out.println(c);
 		int count=0;		 
-	for(int i=1;i<c;i++) 	
-			
+	for(int i=1;i<c;i++) 			
 		{
 	//List<WebElement> ele = driver1.findElements(By.xpath("//th[text()='Name']/ancestor::thead/following-sibling::tbody//td[2]"));
 	    List<WebElement> ele = promodule.tablelist();
@@ -102,8 +101,7 @@ pro.addProduct(data.get("product code"), data.get("name"), data.get("description
 				count++;
 				break;
 	    	}
-	    }
-	    
+	    }    
 	   if(count==1) {
 			break;
 	   }
@@ -115,22 +113,19 @@ pro.addProduct(data.get("product code"), data.get("name"), data.get("description
 	   {
 			System.out.println("TC is Fail");
 	   }
-	   Commonpage profile = new Commonpage(driver);
-
-		//profile.Profilelogout();
-	   
+	   Commonpage profile = new Commonpage(driver);        
+		//profile.Profilelogout();	   
 	   /*driver1.findElement(By.xpath("//img[@class='img-profile rounded-circle']")).click();
 	   driver1.findElement(By.xpath("//a[@class='dropdown-item']/following::a[@class='dropdown-item']")).click();
 	   driver1.findElement(By.xpath("//a[text()='Logout']")).click();*/
 	   
 	   //admin login
        
-//login.loginAction(Username, Password);
+//     login.loginAction(Username, Password);
 	    
 	   /*driver1.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(username);
 		driver1.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 		driver1.findElement(By.xpath("//button[contains(@type,'submit')]")).click();*/
-
 //		web.alertpopup();
 		 promodule.pospage();
 		//driver.findElement(By.xpath("//span[text()='POS']")).click();
@@ -139,12 +134,10 @@ pro.addProduct(data.get("product code"), data.get("name"), data.get("description
 		//String productcategory = "keyboard";	
 		//driver.findElement(By.xpath("(//input[@type='submit'])[1]")).click();
 		 
-		 
 		//WebElement dropdown11=driver.findElement(By.xpath("//select[@name='customer']"));
 		 promodule.selectecustomerdropdown(promodule.customerdd(),"admin reddy");
 		/*dropdown11.click();
-		web.slectclass(dropdown11, "admin reddy");*/
-		 
+		web.slectclass(dropdown11, "admin reddy");*/	 
 		promodule.submitbutton("150000");
 //		driver.findElement(By.xpath("//button[text()='SUBMIT']")).click();
 //		driver.findElement(By.xpath("//input[@name='cash']")).sendKeys("150000");

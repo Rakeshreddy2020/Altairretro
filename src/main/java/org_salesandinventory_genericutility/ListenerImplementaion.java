@@ -38,7 +38,6 @@ public class ListenerImplementaion implements ITestListener
     	stest=test;
     }
 		
-
 	@Override
 	public void onTestSuccess(ITestResult result) 
 	{

@@ -223,7 +223,6 @@ public void toPerformVerficationByAssertNotEquals(String d,String e)
 public void verifyWebPage(WebElement element,String expectedText,WebDriver driver,WebElement element1)
 {
 
-
 	for(;;)
 	{
 		try {

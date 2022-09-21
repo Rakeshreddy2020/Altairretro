@@ -42,10 +42,8 @@ public class NewcustomerTest extends Baseclass {
 //		String firstname = ex.excelutility(IConstantpath.excel_path, "sales and inventory", 0, 1);
 //		String lastname = ex.excelutility(IConstantpath.excel_path, "sales and inventory", 1, 1);
 //		String phoneno = ex.excelutility(IConstantpath.excel_path, "sales and inventory", 2, 1);
-        
 		Map<String, String> data = ex.getDataFromExcelInMap("sales and inventory");
          System.out.println(data);
-         
 		add.createCustomer(data.get("first name"),data.get("last name"),data.get("phone no"));
 		/*
 		 * driver.findElement(By.xpath("(//input[@class='form-control'])[1]")).sendKeys(
@@ -62,8 +60,7 @@ public class NewcustomerTest extends Baseclass {
 		 */
 //		String firstName1 = ex.excelutility(IConstantpath.excel_path, "update customer", 0, 1);
 //		String lastName2 = ex.excelutility(IConstantpath.excel_path, "update customer", 1, 1);
-//		String phoneno3 = ex.excelutility(IConstantpath.excel_path, "update customer", 2, 1);
-//       
+//		String phoneno3 = ex.excelutility(IConstantpath.excel_path, "update customer", 2, 1);      
 		ex.getDataFromExcelInMap("update customer");
 		System.out.println(data);		
 		add.clickOnDetailButton();
