@@ -27,9 +27,6 @@ public class Salesandinventroy {
 		//rew
 
 		
-		//new change
-		
-
 		//FileInputStream fileexcel = new FileInputStream("./src\test\resources\exceldata.xlsx");
 		//step-2--> open the excel workbook
 		//Workbook work = WorkbookFactory.create(fileexcel);
