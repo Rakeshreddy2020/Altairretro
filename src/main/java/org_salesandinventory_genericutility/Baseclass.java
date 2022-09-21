@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class Baseclass
 {
+	//changes in baseclass 
 	protected  Loginpage login;
 	protected String Username;
 	protected String Password;
