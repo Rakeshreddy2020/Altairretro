@@ -7,15 +7,10 @@ import java.util.Properties;
 
 public class Fileutility {
 
-
-
-
 // changes in fileutility2020
 
 		//change
-
-
-		private Properties	prop;
+	private Properties	prop;
 		/**
 		 * this method is used to fetch the data from Property file
 		 * @param PROPERTY_FILE
