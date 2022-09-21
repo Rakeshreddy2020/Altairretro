@@ -23,6 +23,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Salesandinventroy {
 	public static void main(String[] args) throws InterruptedException, IOException
 	{
+		
+		//new change
+		
 		//FileInputStream fileexcel = new FileInputStream("./src\test\resources\exceldata.xlsx");
 		//step-2--> open the excel workbook
 		//Workbook work = WorkbookFactory.create(fileexcel);
