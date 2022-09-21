@@ -14,7 +14,7 @@ import org_salesandinventory_genericutility.IConstantpath;
 
 public class NewproductTest extends Baseclass
 {
-	//new work
+	//new work1
 	@Test
 	public void main() 
 	{
